@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  e_service: MyString
+  e_username: MyString
+  e_pass: MyString
+
+two:
+  e_service: MyString
+  e_username: MyString
+  e_pass: MyString
