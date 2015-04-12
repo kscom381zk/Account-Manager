@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>A service:</strong>
+  <%= @account.a_service %>
+</p>
+
+<p>
+  <strong>A username:</strong>
+  <%= @account.a_username %>
+</p>
+
+<p>
+  <strong>A pass:</strong>
+  <%= @account.a_pass %>
+</p>
+
+<%= link_to 'Edit', edit_account_path(@account) %> |
+<%= link_to 'Back', accounts_path %>
