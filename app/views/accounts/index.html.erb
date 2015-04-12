@@ -5,10 +5,10 @@
 <table>
   <thead>
     <tr>
-      <th>A service</th>
-      <th>A username</th>
-      <th>A pass</th>
-      <th colspan="3"></th>
+      <th>Service</th>
+      <th>Username</th>
+      <th>Pass Character Count</th>
+      <th colspan="3">Actions</th>
     </tr>
   </thead>
 
@@ -17,7 +17,7 @@
       <tr>
         <td><%= account.a_service %></td>
         <td><%= account.a_username %></td>
-        <td><%= account.a_pass %></td>
+        <td><%= account.a_pass.length.to_s << " chars" %></td>
         <td><%= link_to '?', account %></td>
         <td><%= link_to image_tag("icon_edit.png"), edit_account_path(account) %></td>
         <td><%= link_to image_tag("icon_destroy.png"), account, method: :delete, data: { confirm: 'Data cannot be recovered. Are you sure?' } %></td>
