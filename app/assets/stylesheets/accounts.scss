@@ -1,3 +1,45 @@
 // Place all the styles related to the accounts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 {
+  font-size: 2.5em;
+  font-family: "Impact", serif;
+  text-align: center;
+}
+
+h2 {
+  font-shadow: 0.256em 1.75em #FF00000;
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 1.75em;
+}
+
+body {
+  background-color: #FFEED0;
+}
+
+table, th, td {
+  border: 0.2em solid #FF7700;
+  text-align: center;
+}
+
+table {
+  
+}
+
+th { //This is the fill in the header columns (TableHeader, probably)
+  background-color: #FFDDBB;
+}
+
+tbody { //This is table body (the color of the panels that contain our data)
+  background-color: #AAAAAA;
+
+}
