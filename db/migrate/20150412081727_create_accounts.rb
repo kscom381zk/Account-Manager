@@ -5,6 +5,8 @@ class CreateAccounts < ActiveRecord::Migration
       t.string :a_username
       t.string :a_pass
 
+      t.references :email, index: true
+
       t.timestamps null: false
     end
   end
