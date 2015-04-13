@@ -4,7 +4,6 @@ class CreateEmails < ActiveRecord::Migration
       t.string :e_service
       t.string :e_username
       t.string :e_pass
-      t.text :e_recovery
 
       t.timestamps null: false
     end
