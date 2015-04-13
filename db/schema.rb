@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150412083523) do
+ActiveRecord::Schema.define(version: 20150413003954) do
 
   create_table "accounts", force: :cascade do |t|
     t.string   "a_service"
@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 20150412083523) do
     t.string   "a_pass"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.text     "recovery"
   end
 
   create_table "emails", force: :cascade do |t|
@@ -27,6 +28,7 @@ ActiveRecord::Schema.define(version: 20150412083523) do
     t.string   "e_pass"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.text     "recovery"
   end
 
 end
